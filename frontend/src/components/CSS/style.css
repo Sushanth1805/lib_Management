@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Set a background color for the entire component */
+.container-height {
+    background-color: #f4f4f4;
+  }
+  
+  /* Center the modal content vertically */
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+  }
+  
+  /* Style the modal header */
+  .modal-header {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  /* Style the modal title */
+  .modal-title {
+    color: #ffc107;
+  }
+  
+  /* Style the close button */
+  .close {
+    color: white;
+    opacity: 0.8;
+  }
+  
+  .close:hover {
+    opacity: 1;
+  }
+  
+  /* Center the form elements */
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  /* Style the form fields */
+  .form-group label {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .form-control {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the Create Book button */
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Style the Close button */
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  

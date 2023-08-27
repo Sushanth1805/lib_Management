@@ -1,0 +1,65 @@
+/* Navbar styles */
+.navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107 !important;
+  }
+  
+  /* Dropdown styles */
+  .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+  }
+  
+  .dropdown-item {
+    color: white !important;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #343a40;
+    color: #ffc107 !important;
+  }
+  
+  /* Dropdown button styles */
+  .dropdown-toggle {
+    background-color: transparent;
+    border: none;
+  }
+  
+  /* Logout button styles */
+  .dropdown-item.text-danger:hover {
+    background-color: #d9534f;
+  }
+  
+  /* Active link styles */
+  .nav-item.active .nav-link {
+    color: #ffc107 !important;
+  }
+  
+  
+  /* Center the navbar items */
+  .navbar-nav {
+    margin: 0 auto;
+  }
+  
+  /* Center the logo on small screens */
+  @media (max-width: 575.98px) {
+    .navbar-brand {
+      text-align: center;
+      width: 100%;
+    }
+  }
+  

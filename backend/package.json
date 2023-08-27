@@ -1,0 +1,26 @@
+{
+  "name": "book-collection",
+  "version": "1.0.0",
+  "description": "Book Collection",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "cd ../frontend && npm start",
+    "shreyas": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Shreyas H S",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
